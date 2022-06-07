@@ -5,7 +5,7 @@
     oncopy="return false"
     oncut="return false"
   >
-    <h1 id="webTitle">Welcome To My Website.</h1>
+    <h1 id="webTitle">YuHung Blog.</h1>
     <router-link id="btn" to="/about">Enter</router-link>
     <p id="developer" >by Yu-Hung, Chen</p>
   </header>
@@ -40,7 +40,6 @@ header {
   #btn {
     @apply
       mt-10 px-5 py-1
-      border border-white rounded-full
       text-2xl text-white font-extralight
       opacity-0
       transition-all duration-200

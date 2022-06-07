@@ -34,10 +34,28 @@
 
 }
 
+#about {
+  @apply
+    bg-[url('assets/002.png')]
+  ;
+}
+
+#project {
+  @apply
+    bg-[url('assets/003.png')]
+  ;
+}
+
+#contact {
+  @apply
+    bg-[url('assets/004.png')]
+  ;
+}
+
 #about, #project, #contact {
   @apply
     w-full min-h-screen
-    bg-[url('assets/002.png')] bg-center bg-cover bg-no-repeat bg-fixed
+    bg-center bg-cover bg-no-repeat bg-fixed
   ;
 }
 

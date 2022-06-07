@@ -28,7 +28,7 @@
         </div>
         <div class="md:col-span-2 text-white font-light flex flex-col justify-center">
           <h1 class="name">陳昱宏 EDDY</h1>
-          <p class="para">
+          <p class="para sm:px-12 md:px-0">
             大家好，我叫陳昱宏，畢業於樹德科技大學視覺傳達設計系。我的興趣是前端設計，目前都是用國外論壇、影片等自主學習。攝影、看展覽、羽球是主要的休閒娛樂。
           </p>
         </div>
@@ -134,28 +134,35 @@
       <div id="workExperience">
         <h1 class="title">Work Experience</h1>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-20">
-          <div class="flex flex-col justify-center items-center">
-            <img class="max-w-full w-28 rounded-[10px]" src="@/assets/icon/foresii.png" >
-            <h3 class="subTitle">想見科技股份有限公司</h3>
-          </div>
-          <div class="sm:col-span-2 border-t sm:border-l sm:border-t-0 pt-10 sm:pt-0 sm:pl-10">
+        <div class="workGrid mb-20">
+          <a 
+            class="companyLink"
+            href="http://foresii.com/" target="_blank"
+          >
+            <img class="companyLogo" src="@/assets/icon/foresii.png" >
+            <h3 class="subTitle text-center">想見科技<br />股份有限公司</h3>
+          </a>
+          <div class="workInfo">
             <h3 class="subTitle mt-0 mb-5">2021. 12 - 2022. 6 | 實習前端工程師</h3>
-            <ul class="list-decimal pl-5 leading-8">
+            <ul class="workList">
               <li>網頁 UI/UX 設計</li>
               <li>網頁前端切版</li>
               <li>依不同專案開發需求以 HTML、CSS、響應式設計 (RWD)、JS、Vue.js 等技術協助前後端開發。</li>
             </ul>
           </div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-20">
-          <div class="flex flex-col justify-center items-center">
-            <img class="max-w-full w-28 rounded-[10px]" src="@/assets/icon/wetalk.png" >
-            <h3 class="subTitle">維特實業股份有限公司</h3>
-          </div>
-          <div class="sm:col-span-2 border-t sm:border-l sm:border-t-0 pt-10 sm:pt-0 sm:pl-10">
+
+        <div class="workGrid mb-20">
+          <a 
+            class="companyLink"
+            href="https://www.wetalk-space.com/" target="_blank"
+          >
+            <img class="companyLogo" src="@/assets/icon/wetalk.png" >
+            <h3 class="subTitle text-center">維特實業<br />股份有限公司</h3>
+          </a>
+          <div class="workInfo">
             <h3 class="subTitle mt-0 mb-5">2021.5 - 2021. 8 | 平面設計人員</h3>
-            <ul class="list-decimal pl-5 leading-8">
+            <ul class="workList">
               <li>設計製作平面文宣、海報和 banner</li>
               <li>公司動態 logo 製作、公司牆面視覺設計 </li>
               <li>進行圖稿、文案的排版設計</li>
@@ -164,14 +171,18 @@
             </ul>
           </div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-10">
-          <div class="flex flex-col justify-center items-center">
-            <img class="max-w-full w-28 rounded-[10px]" src="@/assets/icon/howteam.png" >
-            <h3 class="subTitle">好隊影像有限公司</h3>
-          </div>
-          <div class="sm:col-span-2 border-t sm:border-l sm:border-t-0 pt-10 sm:pt-0 sm:pl-10">
+
+        <div class="workGrid">
+          <a
+            class="companyLink"
+            href="https://www.facebook.com/howteam.image/" target="_blank"
+          >
+            <img class="companyLogo" src="@/assets/icon/howteam.png" >
+            <h3 class="subTitle text-center">好隊影像<br />有限公司</h3>
+          </a>
+          <div class="workInfo">
             <h3 class="subTitle mt-0 mb-5">2018. 7 -2018. 8 | 攝影實習生</h3>
-            <ul class="list-decimal pl-5 leading-8">
+            <ul class="workList">
               <li>協助專案資料蒐集</li>
               <li>拍攝現場幫忙架設器材與搬器材</li>
               <li>拍攝工作照</li>
@@ -220,10 +231,41 @@
 
       <div id="education">
         <h1 class="title">Education</h1>
+        <div class="sm:flex justify-center">
+          <div class="educationInfo lg:pr-5 py-5">
+            <img class="schoolLogo p-2" src="@/assets/icon/jwsh.png">
+            <div class="sm:pt-5 h-full">
+              <h3 class="subTitle mt-0">2013 - 2016</h3><br />
+              <p class="para sm:text-center mt-0 font-normal">景文高中 高職部<br />室內設計系</p>
+            </div>
+          </div>
+          <div class="educationInfo lg:px-5 py-5">
+            <img class="schoolLogo p-2" src="@/assets/icon/stu.png">
+            <div class="sm:pt-5 h-full">
+              <h3 class="subTitle mt-0">2016 - 2020</h3><br />
+              <p class="para sm:text-center mt-0 font-normal">樹德科技大學<br />視覺傳達設計系</p>
+            </div>
+          </div>
+          <div class="educationInfo lg:pl-5 pt-5 pb-0">
+            <img class="schoolLogo pt-2" src="@/assets/icon/sce.png">
+            <div class="sm:pt-5 h-full">
+              <h3 class="subTitle mt-0">2021 - 2022</h3><br />
+              <p class="para sm:text-center mt-0 font-normal">中國文化大學 進修部<br />前端工程師養成班</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="othersExperience">
         <h1 class="title">Others Experience</h1>
+
+        <h3 class="subTitle">參加「ICID 創新設計論文研討會」發表論文</h3>
+        <p class="para">2019 | 大學</p>
+        <p class="para">曾參加過致理科大所舉辦的設計相關論文研討會，而我所發表的是一篇關於台灣濫用包裝的現象造成環境影響的論文。</p>
+
+        <h3 class="subTitle">參加 Vue.js Taiwan 2022 講座</h3>
+        <p class="para">2022 | 進修</p>
+        <p class="para">曾參加過 Vue.js Taiwan 與 LINE 舉辦的講座，此講座分成兩大主軸，Tailwind CSS 和 Vue，主要是深入了解 Vue 的進階應用與 Tailwind CSS 的便利性、客製化特色。</p>
       </div>
     </div>
   </main>
@@ -246,7 +288,7 @@ import Footer from '@/components/Footer.vue';
 
 .name {
   @apply
-    text-lg lg:text-4xl md:text-2xl font-semibold
+    text-3xl lg:text-4xl font-semibold text-center md:text-left
     opacity-70
   ;
 }
@@ -276,7 +318,40 @@ import Footer from '@/components/Footer.vue';
 }
 
 #workExperience {
-  
+  .workGrid {
+    @apply
+      grid grid-cols-1 sm:grid-cols-3 gap-10
+    ;
+
+    .companyLink {
+      @apply
+        flex flex-col justify-center items-center
+      ;
+
+      .companyLogo {
+        @apply
+          max-w-full w-28
+          rounded-[10px]
+        ;
+      }
+    }
+
+    .workInfo {
+      @apply
+        pt-10 sm:pt-0 sm:pl-10
+        border-t sm:border-l sm:border-t-0
+        sm:col-span-2
+      ;
+
+      .workList {
+        @apply
+          pl-5
+          leading-8
+          list-decimal
+        ;
+      }
+    }
+  }
 }
 
 #aboutMe {
@@ -293,9 +368,22 @@ import Footer from '@/components/Footer.vue';
 
 #education {
 
-}
+  .educationInfo {
+    @apply
+      w-full
+      sm:py-10
+      text-center
+      flex sm:flex-col justify-center sm:justify-around items-center
+    ;
 
-#othersExperience {
-
+    .schoolLogo {
+      @apply
+        h-auto sm:h-24 w-12 xs:w-20 sm:w-auto
+        mr-5 xs:mr-10 sm:mr-0
+        rounded-[10px]
+        bg-white
+      ;
+    }
+  }
 }
 </style>
