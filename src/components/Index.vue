@@ -39,13 +39,14 @@ header {
   
   #btn {
     @apply
-      mt-10 px-5 py-1
+      mt-10 px-2 py-5
       text-2xl text-white font-extralight
+      rounded-full
       opacity-0
       transition-all duration-200
 
       hover:text-gray-800 hover:font-light
-      hover:bg-white
+      hover:bg-white/70
     ;
     animation: btn 1s 2.5s forwards;
 
