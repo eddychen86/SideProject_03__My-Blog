@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+# 我的個人網站
+============
+<a href="https://yu-hung-web.netlify.app/" target="_blank">YuHung BlOG</a>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## 使用技術
+==========
+| 框&emsp;架 | CSS                  | 環&emsp;境 |
+|:---------:|:--------------------:|:----------:|
+| Vue       | scss<br>Tailwind css | Vite       |
