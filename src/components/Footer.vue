@@ -1,30 +1,28 @@
 <template>
-  <footer class="grid grid-cols-1 sm:grid-cols-3">
-    <div id="footerStart">
-      <h1 class="subTitle m-0">YuHung<br>Blog.</h1>
-    </div>
+  <footer>
+    <h1 id="footerStart">YuHung<br>Blog.</h1>
 
-    <div id="footerCenter" class="text-white/70 leading-8 text-lg font-extralight flex justify-center">
-      <div>
-        <a class="" href="https://goo.gl/maps/t2GfFvQQWNBJdvsDA" target="_blank">
-          <fa class="" :icon="['fa-solid', 'location-dot']" />&nbsp;
-          Taiwan, Taipei
+    <div id="footerCenter">
+      <div id="info">
+        <a href="https://goo.gl/maps/t2GfFvQQWNBJdvsDA" target="_blank">
+          <fa class="text-2xl sm:text-base" :icon="['fa-solid', 'location-dot']" />&nbsp;
+          <span class="hidden sm:inline-block">Taiwan, Taipei</span>
         </a>
         <br />
-        <a class="" href="tel:+886981328088">
-          <fa class="" :icon="['fa-solid', 'phone']" />&nbsp;
-          +886 981 328 088
+        <a href="tel:+886981328088">
+          <fa class="text-2xl sm:text-base" :icon="['fa-solid', 'phone']" />&nbsp;
+          <span class="hidden sm:inline-block">+886 981 328 088</span>
         </a>
         <br />
-        <a class="" href="mailto:eddychen101020@gmail.com" target="_blank">
-          <fa class="" :icon="['fa-solid', 'envelope']" />&nbsp;
-          eddychen101020@gmail.com
+        <a href="mailto:eddychen101020@gmail.com" target="_blank">
+          <fa class="text-2xl sm:text-base" :icon="['fa-solid', 'envelope']" />&nbsp;
+          <span class="hidden sm:inline-block">eddychen101020@gmail.com</span>
         </a>
       </div>
     </div>
 
-    <div id="footerEnd" class="flex flex-col justify-center items-end">
-      <div class="w-40 px-3 py-2 rounded-full bg-white/10 flex justify-between items-center">
+    <div id="footerEnd">
+      <div class="footerItem">
         <a href="https://www.instagram.com/eddy_chen_86/" target="_blank">
           <fa class="text-2xl" :icon="['fa-brands', 'instagram']" />
         </a>
@@ -37,29 +35,10 @@
       </div>
     </div>
 
-    <p id="Copyright" class="pt-10 text-sm font-thin text-center col-span-3">
-      POWER by YuHung Chen
-    </p>
+    <p id="Copyright">POWER by YuHung Chen</p>
   </footer>
 </template>
 
-<style scoped lang="scss">
-footer {
-  @apply
-    px-12 pt-10 pb-5
-    text-white
-    bg-[#1e1e1e]
-  ;
+<style>
 
-  #footerStart {
-    @apply
-      text-2xl font-bold
-      opacity-70
-    ;
-  }
-
-  #footerEnd {
-    
-  }
-}
 </style>

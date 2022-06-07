@@ -1,5 +1,5 @@
 <template>
-  <router-view />
+  <router-view class="min-w-min" />
 </template>
 
 <style lang="scss">
@@ -16,7 +16,7 @@
 #pageMenu {
   @apply
     ml-10
-    top-40
+    top-1/2 -translate-y-1/2
     text-white/70
     border-l border-white
     fixed z-10
