@@ -1,0 +1,1 @@
+import{N as e,F as t}from"./Footer.fc8a275e.js";import{o,c as r,a,F as c,d as s}from"./index.cb385436.js";const n=s("main",{id:"contact"},null,-1),i={name:"Contact",setup(m){return(l,_)=>(o(),r(c,null,[a(e),n,a(t)],64))}};export{i as default};
