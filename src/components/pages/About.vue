@@ -140,10 +140,10 @@
             href="http://foresii.com/" target="_blank"
           >
             <img class="companyLogo" src="@/assets/icon/foresii.png" >
-            <h3 class="subTitle text-center">想見科技<br />股份有限公司</h3>
+            <h3 class="subTitle font-light text-center">想見科技<br />股份有限公司</h3>
           </a>
           <div class="workInfo">
-            <h3 class="subTitle mt-0 mb-5">2021. 12 - 2022. 6 | 實習前端工程師</h3>
+            <h3 class="subTitle font-normal mt-0 mb-5">2021.12 ～ 2022.06&emsp;|&emsp;實習前端工程師</h3>
             <ul class="workList">
               <li>網頁 UI/UX 設計</li>
               <li>網頁前端切版</li>
@@ -158,10 +158,10 @@
             href="https://www.wetalk-space.com/" target="_blank"
           >
             <img class="companyLogo" src="@/assets/icon/wetalk.png" >
-            <h3 class="subTitle text-center">維特實業<br />股份有限公司</h3>
+            <h3 class="subTitle font-light text-center">維特實業<br />股份有限公司</h3>
           </a>
           <div class="workInfo">
-            <h3 class="subTitle mt-0 mb-5">2021.5 - 2021. 8 | 平面設計人員</h3>
+            <h3 class="subTitle font-normal mt-0 mb-5">2021.05 ～ 2021.08&emsp;|&emsp;平面設計人員</h3>
             <ul class="workList">
               <li>設計製作平面文宣、海報和 banner</li>
               <li>公司動態 logo 製作、公司牆面視覺設計 </li>
@@ -178,10 +178,10 @@
             href="https://www.facebook.com/howteam.image/" target="_blank"
           >
             <img class="companyLogo" src="@/assets/icon/howteam.png" >
-            <h3 class="subTitle text-center">好隊影像<br />有限公司</h3>
+            <h3 class="subTitle font-light text-center">好隊影像<br />有限公司</h3>
           </a>
           <div class="workInfo">
-            <h3 class="subTitle mt-0 mb-5">2018. 7 -2018. 8 | 攝影實習生</h3>
+            <h3 class="subTitle font-normal mt-0 mb-5">2018.07 ～ 2018.08&emsp;|&emsp;攝影實習生</h3>
             <ul class="workList">
               <li>協助專案資料蒐集</li>
               <li>拍攝現場幫忙架設器材與搬器材</li>
@@ -235,21 +235,21 @@
           <div class="educationInfo lg:pr-5 py-5">
             <img class="schoolLogo p-2" src="@/assets/icon/jwsh.png">
             <div class="sm:pt-5 h-full">
-              <h3 class="subTitle mt-0">2013 - 2016</h3><br />
+              <h3 class="subTitle mt-0">2013 ～ 2016</h3><br />
               <p class="para sm:text-center mt-0 font-normal">景文高中 高職部<br />室內設計系</p>
             </div>
           </div>
           <div class="educationInfo lg:px-5 py-5">
             <img class="schoolLogo p-2" src="@/assets/icon/stu.png">
             <div class="sm:pt-5 h-full">
-              <h3 class="subTitle mt-0">2016 - 2020</h3><br />
+              <h3 class="subTitle mt-0">2016 ～ 2020</h3><br />
               <p class="para sm:text-center mt-0 font-normal">樹德科技大學<br />視覺傳達設計系</p>
             </div>
           </div>
           <div class="educationInfo lg:pl-5 pt-5 pb-0">
             <img class="schoolLogo pt-2" src="@/assets/icon/sce.png">
             <div class="sm:pt-5 h-full">
-              <h3 class="subTitle mt-0">2021 - 2022</h3><br />
+              <h3 class="subTitle mt-0">2021 ～ 2022</h3><br />
               <p class="para sm:text-center mt-0 font-normal">中國文化大學 進修部<br />前端工程師養成班</p>
             </div>
           </div>

@@ -31,32 +31,31 @@ nav {
     w-full h-14 fixed z-10 top-0  overflow-hidden
     bg-black/[.05] backdrop-blur-xl
   ;
+}
 
-  #menu {
-    @apply
-      container mx-auto
-      w-72 sm:w-96 h-full
-      border-b-2 border-white
-      flex justify-around items-center
-    ;
+#menu {
+  @apply
+    container mx-auto
+    w-72 sm:w-96 h-full
+    border-b-2 border-white
+    flex justify-around items-center
+  ;
+}
+.navItem {
+  @apply
+    w-full h-full
+    border-b-0 border-white
+    transition-all duration-200
 
-    .navItem {
-      @apply
-        w-full h-full
-        border-b-0 border-white
-        transition-all duration-200
-
-        
-      ;
-    }
-    .navLink {
-      @apply
-        h-full
-        text-white
-        flex justify-center items-center
-        
-      ;
-    }
-  }
+    
+  ;
+}
+.navLink {
+  @apply
+    h-full
+    text-white
+    flex justify-center items-center
+    
+  ;
 }
 </style>

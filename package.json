@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "ntl": "vite build && ntl deploy --prod",
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview"

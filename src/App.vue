@@ -1,5 +1,5 @@
 <template>
-  <router-view class="min-w-min" />
+  <router-view />
 </template>
 
 <style lang="scss">
@@ -22,16 +22,15 @@
     fixed z-10
     hidden lg:block
   ;
+}
 
-  .pageMenuItem {
-    @apply
-      pl-5 py-2
-      transition-all duration-200
+.pageMenuItem {
+  @apply
+    pl-5 py-2
+    transition-all duration-200
 
-      hover:border-l-[5px] hover:border-white/70 hover:font-semibold
-    ;
-  }
-
+    hover:border-l-[5px] hover:border-white/70 hover:font-semibold
+  ;
 }
 
 #about {

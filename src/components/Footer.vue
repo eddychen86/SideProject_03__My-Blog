@@ -4,30 +4,40 @@
 
     <div id="footerCenter">
       <div id="info">
-        <a href="https://goo.gl/maps/t2GfFvQQWNBJdvsDA" target="_blank">
-          <fa class="text-2xl text-white sm:text-base" :icon="['fa-solid', 'location-dot']" />&nbsp;
-          <span class="hidden sm:inline-block">Taiwan, Taipei</span>
+        <a class="flex" href="https://goo.gl/maps/t2GfFvQQWNBJdvsDA" target="_blank">
+          <fa class="text-2xl" :icon="['fa-solid', 'location-dot']" />&nbsp;
+          <span class="hidden md:inline-block">Taiwan, Taipei</span>
         </a>
         <br />
-        <a href="tel:+886981328088">
-          <fa class="text-2xl text-white sm:text-base" :icon="['fa-solid', 'phone']" />&nbsp;
-          <span class="hidden sm:inline-block">+886 981 328 088</span>
+        <a class="flex" href="tel:+886981328088">
+          <fa class="text-2xl" :icon="['fa-solid', 'phone']" />&nbsp;
+          <span class="hidden md:inline-block">+886 981 328 088</span>
         </a>
         <br />
-        <a href="mailto:eddychen101020@gmail.com" target="_blank">
-          <fa class="text-2xl text-white sm:text-base" :icon="['fa-solid', 'envelope']" />&nbsp;
-          <span class="hidden sm:inline-block">eddychen101020@gmail.com</span>
+        <a class="flex" href="mailto:eddychen101020@gmail.com" target="_blank">
+          <fa class="text-2xl" :icon="['fa-solid', 'envelope']" />&nbsp;
+          <span class="hidden md:inline-block">eddychen101020@gmail.com</span>
         </a>
       </div>
     </div>
 
     <div id="footerEnd">
       <div class="footerItem">
+        <a class="md:hidden" href="https://goo.gl/maps/t2GfFvQQWNBJdvsDA" target="_blank">
+          <fa class="text-2xl md:mr-8" :icon="['fa-solid', 'location-dot']" />
+        </a>
+        <a class="md:hidden" href="tel:+886981328088">
+          <fa class="text-2xl md:mr-8" :icon="['fa-solid', 'phone']" />
+        </a>
+        <a class="md:hidden" href="mailto:eddychen101020@gmail.com" target="_blank">
+          <fa class="text-2xl md:mr-8" :icon="['fa-solid', 'envelope']" />
+        </a>
+        
         <a href="https://www.instagram.com/eddy_chen_86/" target="_blank">
-          <fa class="text-2xl" :icon="['fa-brands', 'instagram']" />
+          <fa class="text-2xl md:mr-8" :icon="['fa-brands', 'instagram']" />
         </a>
         <a href="https://github.com/eddychen86" target="_blank">
-          <fa class="text-2xl" :icon="['fa-brands', 'github']"/>
+          <fa class="text-2xl md:mr-8" :icon="['fa-brands', 'github']"/>
         </a>
         <a href="https://www.behance.net/eddychen10f358/projects" target="_blank">
           <fa class="text-2xl" :icon="['fa-brands', 'behance']" />
@@ -35,67 +45,59 @@
       </div>
     </div>
 
-    <p id="Copyright">POWER by YuHung Chen</p>
+    <a id="Copyright" href="https://github.com/eddychen86/SideProject-5--My-Resume-Website-V2" target="_blank">POWER by YuHung Chen</a>
   </footer>
 </template>
 
 <style scoped lang="scss">
 footer {
   @apply
-    px-12 pt-10 pb-5
-    text-white
+    pt-12 pb-5 px-10
+    text-white text-center
     bg-[#1e1e1e]
-    sm:grid grid-cols-2 lg:grid-cols-3
+    sm:grid grid-cols-4 md:grid-cols-3
   ;
+}
 
-  #footerStart {
-    @apply
-      pb-5 sm:p-0
-      text-2xl font-bold text-center sm:text-left
-      opacity-70
-      col-span-2 lg:col-span-1 row-span-2 lg:row-span-1
-    ;
-  }
+#footerStart {
+  @apply
+    pb-5 xs:p-0
+    text-4xl font-bold sm:text-left 
+    opacity-70
+    sm:flex items-center
+  ;
+}
 
-  #footerCenter {
-    @apply
-      sm:text-white/70 leading-8 text-lg font-extralight
-      flex justify-center
-    ;
+#footerCenter {
+  @apply
+    sm:text-white/70 leading-8 text-lg font-extralight
+    hidden md:flex justify-center
+  ;
+}
 
-    #info {
-      @apply
-        w-40 sm:w-auto
-        px-3 py-2 mt-5 sm:p-0 sm:m-0
-        rounded-full sm:rounded-none
-        bg-white/10 sm:bg-white/0
-        flex justify-between items-center sm:block
-      ;
-    }
-  }
+#footerEnd {
+  @apply
+    pt-5 sm:pt-0 mt-4 mb-8 sm:m-0
+    flex flex-col justify-center items-center sm:items-end
+    sm:col-span-3 md:col-span-1
+  ;
+}
 
-  #footerEnd {
-    @apply
-      flex flex-col justify-center items-center lg:items-end
-    ;
+.footerItem {
+  @apply
+    px-4 py-3 md:px-3 md:py-2
+    rounded-[20px] md:rounded-full 
+    bg-white/10
+    md:flex md:justify-between md:items-center
+    grid grid-cols-3 gap-x-[50px] gap-y-[30px] md:gap-0
+  ;
+}
 
-    .footerItem {
-      @apply
-        w-40
-        px-3 py-2 mt-5
-        rounded-full 
-        bg-white/10
-        flex justify-between items-center
-      ;
-    }
-  }
-
-  #Copyright {
-    @apply
-      pt-10
-      text-sm font-thin text-center
-      col-span-3
-    ;
-  }
+#Copyright {
+  @apply
+    pt-16
+    text-sm font-thin
+    col-span-4 md:col-span-3
+  ;
 }
 </style>
