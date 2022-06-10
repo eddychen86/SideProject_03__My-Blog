@@ -14,7 +14,7 @@
 <style scoped lang="scss">
 header {
   @apply
-    bg-[url('../assets/001.png')] bg-center bg-cover bg-no-repeat 
+    bg-[url('../assets/001.jpg')] bg-center bg-cover bg-no-repeat 
     flex flex-col justify-center items-center
   ;
 }

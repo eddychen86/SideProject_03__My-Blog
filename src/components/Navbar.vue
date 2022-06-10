@@ -16,11 +16,6 @@
           <h1 class="navLink">Project</h1>
         </router-link>
       </li>
-      <li class="m-[5%] w-full h-full">
-        <router-link to="/contact" class="navItem">
-          <h1 class="navLink">Contact</h1>
-        </router-link>
-      </li>
     </ul>
   </nav>
 </template>

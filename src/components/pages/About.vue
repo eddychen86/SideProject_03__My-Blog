@@ -22,15 +22,59 @@
 
     <div class="body">
 
-      <div class="grid md:grid-cols-3 gap-10 auto-rows-max">
-        <div class="w-full md:block flex justify-center items-center">
-          <img id="myPhoto" src="@/assets/Eddy_480x480.png">
+      <div class="grid xl:grid-cols-3 gap-10 auto-rows-max mt-20">
+        <div class="w-full xl:block flex justify-center items-center">
+          <img id="myPhoto" src="@/assets/Eddy_480x480.jpg">
         </div>
-        <div class="md:col-span-2 text-white font-light flex flex-col justify-center">
+        <div class="xl:col-span-2 text-white font-light flex flex-col justify-center">
           <h1 class="name">陳昱宏 EDDY</h1>
           <p class="para sm:px-12 md:px-0">
             大家好，我叫陳昱宏，畢業於樹德科技大學視覺傳達設計系。我的興趣是前端設計，目前都是用國外論壇、影片等自主學習。攝影、看展覽、羽球是主要的休閒娛樂。
           </p>
+
+          <div class="mt-3 grid sm:grid-cols-3 sm:px-12 md:px-0">
+            <ul class="sm:col-span-2 grid grid-cols-3 sm:grid-cols-1">
+              <li class="pt-3">
+                <a class="flex justify-center sm:justify-start" href="https://goo.gl/maps/t2GfFvQQWNBJdvsDA" target="_blank">
+                  <fa class="text-3xl sm:mr-2" :icon="['fa-solid', 'location-dot']" />
+                  <span class="hidden sm:inline-block">Taiwan, Taipei</span>
+                </a>
+              </li>
+              <li class="pt-3">
+                <a class="flex justify-center sm:justify-start" href="tel:+886981328088">
+                  <fa class="text-2xl sm:mr-2" :icon="['fa-solid', 'phone']" />
+                  <span class="hidden sm:inline-block">+886 981 328 088</span>
+                </a>
+              </li>
+              <li class="pt-3">
+                <a class="flex justify-center sm:justify-start" href="mailto:eddychen101020@gmail.com" target="_blank">
+                  <fa class="text-2xl sm:mr-2" :icon="['fa-solid', 'envelope']" />
+                  <span class="hidden sm:inline-block">eddychen101020@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="grid grid-cols-3 sm:grid-cols-1">
+              <li class="pt-3">
+                <a class="flex justify-center sm:justify-start" href="https://www.instagram.com/eddy_chen_86/" target="_blank">
+                  <fa class="text-3xl sm:mr-2" :icon="['fa-brands', 'instagram']" />
+                  <span class="hidden sm:inline-block">eddy_chen_86</span>
+                </a>
+              </li>
+              <li class="pt-3">
+                <a class="flex justify-center sm:justify-start" href="https://github.com/eddychen86" target="_blank">
+                  <fa class="text-[27px] sm:mr-2" :icon="['fa-brands', 'github']"/>
+                  <span class="hidden sm:inline-block">eddychen86</span>
+                </a>
+              </li>
+              <li class="pt-3">
+                <a class="flex justify-center sm:justify-start" href="https://www.behance.net/eddychen10f358/projects" target="_blank">
+                  <fa class="text-[23px] sm:mr-1" :icon="['fa-brands', 'behance']" />
+                  <span class="hidden sm:inline-block">陳昱宏</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -281,21 +325,21 @@ import Footer from '@/components/Footer.vue';
 <style scoped lang="scss">
 #myPhoto {
   @apply
-    w-[300px] md:min-w-[100px]
+    w-[200px] md:min-w-[100px]
     border border-gray-300/70 rounded-full
   ;
 }
 
 .name {
   @apply
-    text-3xl lg:text-4xl font-semibold text-center md:text-left
+    text-3xl lg:text-4xl font-semibold text-center xl:text-left
     opacity-70
   ;
 }
 
 #skills, #workExperience, #aboutMe, #education, #othersExperience {
   @apply
-    pt-28
+    pt-20
     text-white/70
   ;
 }

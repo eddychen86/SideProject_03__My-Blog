@@ -16,7 +16,7 @@
 #pageMenu {
   @apply
     ml-10
-    top-1/2 -translate-y-1/2
+    top-1/4
     text-white/70
     border-l border-white
     fixed z-10
@@ -35,19 +35,13 @@
 
 #about {
   @apply
-    bg-[url('assets/002.png')]
+    bg-[url('assets/002.jpg')]
   ;
 }
 
 #project {
   @apply
-    bg-[url('assets/003.png')]
-  ;
-}
-
-#contact {
-  @apply
-    bg-[url('assets/004.png')]
+    bg-[url('assets/003.jpg')]
   ;
 }
 
@@ -62,7 +56,7 @@
   @apply
     sm:container mx-auto
     w-full h-full
-    py-40 px-10 lg:px-56 md:px-32 sm:px-20
+    py-20 px-10 lg:px-56 md:px-32 sm:px-20
   ;
 }
 
