@@ -4,13 +4,13 @@
   <main id="project">
     <ul id="pageMenu">
       <li class="pageMenuItem">
-        <a href="#sp01">Side Project 1</a>
+        <a href="#sp01">YuHung Blog</a>
       </li>
       <li class="pageMenuItem">
-        <a href="#sp02">Side Project 2</a>
+        <a href="#sp02">IRUP website</a>
       </li>
       <li class="pageMenuItem">
-        <a href="#sp03">Side Project 3</a>
+        <a href="#sp03">PhotoNFT</a>
       </li>
       <li class="pageMenuItem">
         <a href="#comeSoon">Coming Soon!</a>
