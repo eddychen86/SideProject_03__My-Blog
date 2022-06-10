@@ -8,4 +8,4 @@
 |:---------:|:--------------------:|:----------:|
 | Vue       | scss<br>Tailwind css | Vite       |
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/27e90705-f5fc-4a53-8299-0410c98fca69/deploy-status)](https://app.netlify.com/sites/yu-hung-web/deploys)
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/27e90705-f5fc-4a53-8299-0410c98fca69/deploy-status)](https://app.netlify.com/sites/yu-hung-web/deploys) -->
