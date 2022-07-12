@@ -57,7 +57,8 @@
         <div class="spInfo">
           <p class="para leading-7 md:col-span-3">
             這是一個團隊實習專案，我負責 UI/UX 設計、前端切版及少量的 firebase 串接，且有另外製作一個後台管理介面。<br /><br />
-            在後台可以新增、編輯、刪除文章，新增的文章傳送到 firebase 後，前台網站可以串接 firebase 的文章數據。
+            在後台可以新增、編輯、刪除文章，新增的文章傳送到 firebase 後，前台網站可以串接 firebase 的文章數據。<br /><br />
+            因簽訂保密協議，故無法提供程式碼，請多多包涵。
           </p>
           <div class="spList">
             <ul class="flex flex-wrap">
@@ -68,10 +69,6 @@
               <li class="spItem">Firebase</li>
             </ul>
             <p class="text-xl mt-5 px-1">
-              <a target="_blank" href="http://irup.nchu.edu.tw:83/" class="mr-5 xs:mr-0 scale-100 hover:scale-110">
-                <fa :icon="['fa-solid', 'globe']"/>
-              </a>
-              <span class="hidden xs:inline-block">&emsp;or&emsp;</span>
               <a target="_blank" href="http://irupvip.ddns.net:83/" class="scale-100 hover:scale-110">
                 <fa :icon="['fa-solid', 'globe']"/>
               </a>
